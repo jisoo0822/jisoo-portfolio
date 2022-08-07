@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR:wght@100;400&display=swap');
+div,ul{
+    font-family: 'Montserrat', sans-serif;
+}
+.w1440{
+    width: 1440px;
+    margin: 0 auto;
+}
+.wrap{
+    padding: 100px 0;
+  }
+.flex{
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+@-webkit-keyframes opacity {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes change {
+    0%, 12.66%, 100% {
+      transform: translate3d(0, 0%, 0);
+    }
+    16.66%, 29.32% {
+      transform: translate3d(0, -100%, 0);
+    }
+    33.32%, 45.98% {
+      transform: translate3d(0, -200%, 0);
+    }
+    49.98%, 62.64% {
+      transform: translate3d(0, -300%, 0);
+    }
+    66.64%, 79.3% {
+      transform: translate3d(0, -200%, 0);
+    }
+    83.3%, 95.96% {
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+  @keyframes opacity {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes change {
+    0%, 12.66%, 100% {
+      transform: translate3d(0, 0%, 0);
+    }
+    16.66%, 29.32% {
+      transform: translate3d(0, -100%, 0);
+    }
+    33.32%, 45.98% {
+      transform: translate3d(0, -200%, 0);
+    }
+    49.98%, 62.64% {
+      transform: translate3d(0, -300%, 0);
+    }
+    66.64%, 79.3% {
+      transform: translate3d(0, -200%, 0);
+    }
+    83.3%, 95.96% {
+      transform: translate3d(0, -100%, 0);
+    }
+  } 
+@keyframes slide {
+    0% {
+    margin-left: 300%;
+    }
+    20% {
+    margin-left: 300%;
+    }
+    25% {
+        margin-left: 100%;
+    }
+    45% {
+        margin-left: 100%;
+    }
+    50% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -100%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    95% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: 300%;
+    }
+  }
+    @keyframes progress{
+      0% {
+    width: 0;
+    }
+    70% {
+        width: 100%;
+    }
+    }
+    @keyframes updown{
+      0% {
+        transform: translatey(0);
+    }
+    100% {
+        transform: translatey(-8%);
+    }
+    }
+    @media screen and (max-width: 1440px){
+      .w1440{
+        width: 100%;
+        padding-left:15px;
+        padding-right:15px;
+        box-sizing: border-box;
+      }
+    }
+    @media screen and (max-width: 1440px){
+      .w1440{
+        padding: 0;
+      }
+    }
+
