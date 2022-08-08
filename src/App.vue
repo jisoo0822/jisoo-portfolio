@@ -6,11 +6,11 @@
 
 <nav>
   <ul>
-    <li @click="gotointro" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >7750 }">HOME</li>
-    <li @click="gotoabout" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >7750 }">About</li>
-    <li @click="gotostrength" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >7750 }">Strength</li>
-    <li @click="gotoproject" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >7750 }">Project</li>
-    <li @click="gotocontect" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >7750 }">Contact</li>
+    <li @click="gotointro" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >8230 }">HOME</li>
+    <li @click="gotoabout" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >8230 }">About</li>
+    <li @click="gotostrength" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >8230 }">Strength</li>
+    <li @click="gotoproject" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >8230 }">Project</li>
+    <li @click="gotocontect" :class="{top_colorTxt: scrollPosition < 2500 , middle_colorTxt: scrollPosition >2500,bottom_colorTxt :scrollPosition >8230 }">Contact</li>
   </ul>
 </nav>
   <intro id="intro"/>

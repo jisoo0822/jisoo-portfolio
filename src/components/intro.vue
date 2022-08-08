@@ -6,7 +6,7 @@
         
           <ul class="content__container__list">
             <li class="content__container__list__item">꿈꾸는</li>
-            <li class="content__container__list__item">창의적인</li>
+            <li class="content__container__list__item">성장하는</li>
             <li class="content__container__list__item">소통하는</li>
             <li class="content__container__list__item">생각하는</li>
           </ul>

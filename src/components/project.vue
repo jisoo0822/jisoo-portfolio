@@ -1,9 +1,9 @@
 <template>
   <div class="w1440 wrap">
     <div class="proCard"  data-aos="fade-up-right">
-      <!-- <div class="clickBtn clickBtnR">
-        <img src="../assets/img/click.png" alt="클릭버튼">
-      </div> -->
+      <div class="clickBtn clickBtnR">
+        <img src="../assets/img/clickL.png" alt="클릭버튼">
+      </div>
       <div class="proTxtWrap">
         <div class="proTitle">
           서문야시장
@@ -13,8 +13,8 @@
           <div class="proEx">
             <span>처음으로 만들어본 벤치마킹 페이지 입니다.</span>
             <span>기존 사이트의 개선을 더한 반응형웹 사이트 입니다.</span>
-            <span>node.js와 Mysql을 사용하여 게시판을 제작하고,</span>
-            <span>카카오api를 활용하여 로그인을 구현하였습니다.</span>
+            <span>node.js와 Mysql을 사용하여 게시판을 제작하였습니다.</span>
+            <!-- <span>카카오api를 활용하여 로그인을 구현하였습니다.</span> -->
             <br>
             <span>Skills</span>
             <span>HTML/CSS , JS , Node.js , Mysql</span>
@@ -82,7 +82,8 @@
           </span>
           <div class="proEx">
           <span>싱그러운집 웹클론 사이트입니다.</span>
-          <span> Swiper 슬라이드 플러그인을 사용하고,반응형으로 제작 되었습니다.</span>
+          <span> Swiper 슬라이드 플러그인을 사용하였으며,</span>
+          <span> 반응형으로 제작 되었습니다.</span>
           <br>
           <span>Skills</span>
           <span>HTML/CSS , JS</span>
@@ -179,9 +180,10 @@
           <div class="proEx">
           <span>졸업작품으로 제작한 사이트 입니다.</span>
           <span>현재 서버가 남아있지 않아 Mockup과 ERD만 볼 수 있습니다.</span>
-          <span>Django를 사용해 만든 원데이클래스 수강을 신청하는 사이트 입니다.</span>
+          <span>원데이클래스 수강을 신청하는 사이트 입니다.</span>
           <span>팀프로젝트로 진행하였으며, </span>
-          <span>강사신청,클래스 등록,수강 신청 기능과 페이지를 맡아 제작하였습니다.</span>
+          <span>강사신청,클래스 등록,수강 신청</span>
+          <span>기능구현과 페이지를 맡아 제작하였습니다.</span>
           <br>
           <span>Skills</span>
           <span>HTML/CSS , Javascript, python, Django, SQLite</span>
@@ -268,23 +270,20 @@ export default {
 
   }
   .clickBtnL{
-    left: -2rem;
+    left: 3rem;
   }
   .clickBtnR{
-    right: -2rem;
+    right: 3rem;
   }
   .clickBtn>img{
     width: 100%;
-  }
-  .clickBtnR>img{
-     transform: scaleX(-1);
   }
   .proTxtWrap{
     display: flex;
     justify-content: space-between;
   }
   .proTitle{
-    width: 50%;
+    width: 40%;
     margin-top: 1rem;
     font-size: 1.8rem;
     font-weight: 800;
@@ -373,10 +372,15 @@ export default {
   }
   .proImg{
     cursor: pointer;
-    width: 50%;
+    width: 60%;
+    padding-right: 50px;
   }
   .proImg>img{
     width: 100%;
+  }
+  .proImgL{
+    padding-left: 50px;
+    padding-right: 0;
   }
   .prNarrow{
     bottom: -0.2rem;
@@ -438,27 +442,24 @@ export default {
       width: 50%;
     }
     .proImgL>img{
-
-      padding-left: 50%;
+      padding-left: 35%;
     }
     .proTitle{
       width: 100%;
     }
     .view{
-      bottom: 0;
+      bottom: -10rem;
     }
-    /* .viewL{
-      left: 9rem;
-    } */
-    /* .viewR{
-      right: 30rem;
-    } */
+
   }
   @media screen and (max-width: 430px){
   .proCard{
     border-left: 0.3rem solid #c84b31;
     margin-bottom: 5rem;
     left:15px;
+  }
+  .proTitle{
+    font-size: 1.3rem;
   }
   .right{
     border-left:none;
@@ -481,7 +482,10 @@ export default {
   }
   .clickBtnL{
     left: 3rem;
-    top: 28rem;
+    top: 23rem;
+  }
+  .clickBtnR{
+    top: 21rem;
   }
 }
 </style>
