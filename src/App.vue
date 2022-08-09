@@ -133,12 +133,9 @@ export default {
         font-size: 1rem;
       }
   }
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 450px){
     nav{
       display: none;
     }
-      nav ul li{
-        font-size: 0.8rem;
-      }
   }
 </style>

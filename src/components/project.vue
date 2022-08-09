@@ -1,6 +1,6 @@
 <template>
   <div class="w1440 wrap">
-    <div class="proCard"  data-aos="fade-up-right">
+    <div class="proCard"  data-aos="zoom-in">
       <div class="clickBtn clickBtnR">
         <img src="../assets/img/clickL.png" alt="클릭버튼">
       </div>
@@ -36,7 +36,7 @@
       <div class="project proL">Project1#</div>
       <div class="prNarrow nrowL"></div>
     </div>
-    <div class="proCard right"  data-aos="fade-up-left">
+    <div class="proCard right"  data-aos="zoom-in">
       <div class="clickBtn clickBtnL">
         <img src="../assets/img/click.png" alt="클릭버튼">
       </div>
@@ -73,7 +73,7 @@
       <div class="project proR project2">Project2#</div>
       <div class="prNarrow nrowR"></div>
     </div>
-    <div class="proCard" data-aos="fade-up-right">
+    <div class="proCard" data-aos="zoom-in">
       <div class="proTxtWrap">
         <div class="proTitle">
           싱그러운집
@@ -105,7 +105,7 @@
       <div class="project proL webclone1">Webclone1#</div>
       <div class="prNarrow nrowL"></div>
     </div>
-    <div class="proCard right"   data-aos="fade-up-left">
+    <div class="proCard right"  data-aos="zoom-in">
       <div class="proTxtWrap">
         <div class="proImg proImgL">
         <img src="../assets/img/mockup_pollex.png" alt="서문시장이미지">
@@ -136,7 +136,7 @@
       <div class="project proR webclone2">Webclone2#</div>
       <div class="prNarrow nrowR"></div>
     </div>
-        <div class="proCard"  data-aos="fade-up-right">
+        <div class="proCard" data-aos="zoom-in">
       <div class="proTxtWrap">
         <div class="proTitle">
           대전문화재단
@@ -167,7 +167,7 @@
       <div class="project proL webclone3">Webclone3#</div>
       <div class="prNarrow nrowL"></div>
     </div>
-    <div class="proCard right"   data-aos="fade-up-left">
+    <div class="proCard right" data-aos="zoom-in">
       <div class="proTxtWrap">
         <div class="proImg proImgL">
         <img src="../assets/img/mockup_ha.png" alt="서문시장이미지">

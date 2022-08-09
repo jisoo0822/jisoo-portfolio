@@ -25,6 +25,7 @@
             Developer
           </div>
           <div class="memojiCircle"></div>
+          <div class="memojiCircleH"></div>
           <div class="memojiImg">
             <img src="../assets/img/memoji.png" alt="축하미모지">
           </div>
@@ -131,6 +132,16 @@ export default {
     height: 13rem;
     border-radius: 50%;
     background-color: rgb(0, 173, 181);
+  }
+  .memojiCircleH{
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    top: 0px;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: rgb(57, 62, 70);
   }
   .memojiImg{
     position: absolute;
